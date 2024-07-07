@@ -1,4 +1,14 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "privatecontract": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/privatecontract.json",
+      "feepayerKeyPath": "C:\\Users\\Krishnan/.cache/zkapp-cli/keys/myaccount.json",
+      "feepayerAlias": "myaccount",
+      "fee": "0.01",
+      "smartContract": "PrivateInput"
+    }
+  }
 }
